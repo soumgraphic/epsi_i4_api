@@ -39,6 +39,7 @@ app.get("/hello/:id", (req, res) => {
 
 // -- API routes definitions
 require("./campus/campus.routes")(app);
+require("./schools/schools.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
