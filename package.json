@@ -1,0 +1,22 @@
+{
+  "name": "epsi-lds-api",
+  "version": "1.0.0",
+  "description": "API pour le brest open campus epsi et lds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "rest",
+    "boc"
+  ],
+  "author": "Soumaila AD",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1"
+  }
+}
